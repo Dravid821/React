@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.nav-item {
+    margin-left: auto;
+}
+
+.toggle {
+    margin-left: auto;
+}
+
+.logo {
+    position: relative;
+    @media screen and (max-width: 300px) {
+        max-width: 150px !important;
+        max-height: 100px !important;
+        position: relative;
+        z-index: 1;
+    }
+    @media screen and (max-width: 576px) {
+        max-width: 200px !important;
+        max-height: 200px !important;
+        position: relative;
+        z-index: 1;
+    }
+    @media screen and (max-width: 992px) {
+        width: 300px !important;
+        position: relative;
+        z-index: 1;
+    }
+}

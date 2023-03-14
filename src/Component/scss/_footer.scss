@@ -1,0 +1,15 @@
+.wrap{
+    word-wrap: break-word;
+}
+li a{
+    text-decoration: none;
+}
+.txt1{
+    text-align: start;
+    @media screen and (max-width:770px){
+        text-align: center;
+    }
+}
+.bginfo{
+    background-color: lightsteelblue;
+}
